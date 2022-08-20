@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-} //AppCompatActivity를 상속받아 MainActivity라는 클래스를 정의했다. AppCompatActivity는 Activity의 하위클래스이므로 MainActivity역시 액티비티 컴포넌트 클래스이다.
+} //AppCompatActivity를 상속받아 MainActivity라는 클래스를 정의했다. AppCompatActivity는 Activity의 하위 클래스이므로 MainActivity역시 액티비티 컴포넌트 클래스이다.
 
 /*
     안드로이드는 리눅스 커널을 기반으로 구글에서 제작한 모바일 운영체제다. (자바나 코틀린 언어를 이용해 앱 개발)
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     안드로이드 컴포넌트의 종류는 크게 화면을 구성하는 '액티비티' , 백그라운드 작업을 하는 '서비스'
     앱의 데이터를 공유하는 '콘텐츠 프로바이더' , 시스템 이벤트 발생 시 실행되게 하는 '브로드캐스트 리시버'
     4종류가 있다. 이 4종류의 컴포넌트를 구분하는 방법은
-    개발자가 클래스를 만들 때 지정된 클래스를 상속 받아야 하는데 이 상위 클래스를 보고 구분한다.
+    개발자가 클래스를 만들 때 지정된 클래스를 상속받아야 하는데 이 상위 클래스를 보고 구분한다.
 
     또한 컴포넌트는 앱 내에서 서로 종속되지 않는 독립된 실행단위이다.
     그렇기에 코드 결합이 아닌 안드로이드 시스템에 의뢰함으로써 두 클래스를 독립적으로 실행시킨다.
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     - AndroidManifest.xml (앱 환경설정 파일)
         안드로이드 앱의 메인 환경 파일이다. 개발부터 실행까지 매우 중요한 역할을 한다.
-        컴포넌트는 시스템에서 생명주기를 관리한다고 배웠는데, 시스템은 매니페스트 파일에 있는대로 앱을 실행한다.
+        컴포넌트는 시스템에서 생명주기를 관리한다고 배웠는데, 시스템은 매니페스트 파일에 있는 대로 앱을 실행한다.
         결국 컴포넌트는 매니페스트 파일에 등록해야 시스템이 인지한다는 것이다.
         (ex. 네임스페이스 선언, 컴포넌트 선언 등)
 
