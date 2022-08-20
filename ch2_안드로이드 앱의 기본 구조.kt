@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-} /AppCompatActivity를 상속받아 MainActivity라는 클래스를 정의했다. AppCompatActivity는 Activity의 하위클래스이므로 MainActivity역시 액티비티 컴포넌트 클래스이다.
+} //AppCompatActivity를 상속받아 MainActivity라는 클래스를 정의했다. AppCompatActivity는 Activity의 하위클래스이므로 MainActivity역시 액티비티 컴포넌트 클래스이다.
 
 /*
     안드로이드는 리눅스 커널을 기반으로 구글에서 제작한 모바일 운영체제다. (자바나 코틀린 언어를 이용해 앱 개발)
