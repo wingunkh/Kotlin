@@ -14,7 +14,9 @@ open class Super {
     }
 }
 
-var obj= object : Super() { //클래스 타입을 명시해주지 않으면 최상위 타입인 Any 타입으로 취급하지만 이 때 멤버를 이용할 수 없으므로, 상속을 이용한다.
+var obj = object : Super() { 
+    //object 키워드를 사용해 익명 클래스를 선언함과 동시에 객체를 생성했으며 그 객체를 obj 변수에 저장한다.
+    //클래스 타입을 명시해주지 않으면 최상위 타입인 Any 타입으로 취급하지만 이 때 멤버를 이용할 수 없으므로, 상속을 이용한다.
     override var data=20
     override fun some() {
         println("나는 Super 클래스를 상속받은 오브젝트(익명) 클래스 some()함수입니다. : $data")
