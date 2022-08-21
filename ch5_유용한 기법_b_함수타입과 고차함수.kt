@@ -33,7 +33,6 @@ fun main(){
     var result= hofFun({no -> no>0})
     //매개변수인 para 변수가 함수타입이므로 인자로 함수를 전달해야 한다.
     //람다함수 { no -> no>0 }를 전달하였다.
-    //para:(no:Int)->Boolean = { no>0 }
 
-    println(result())
+    println(result()) //valid
 }
